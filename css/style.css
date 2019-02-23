@@ -1,0 +1,110 @@
+* { font-family: Arial, sans-serif;
+	color: #c2c2c2;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 100px auto 0;
+}
+
+section {
+	box-sizing: border-box;
+	text-align: center;
+	/*border: 10px solid black;*/
+	width: 100%;
+	position: relative;
+}
+
+header {
+	text-align: center;
+}
+
+div {
+	display: inline-block;
+}
+
+.main {
+	display: inline-block;
+	margin: 15px 0;
+	/*border: 5px solid black;*/*/
+	position: absolute;
+	max-width: 1098px;
+	width: 100%;
+	font-weight: 400;
+ }
+
+ .column {
+ 	display: inline-block;
+ 	/*border: 1px solid black;*/
+ 	box-sizing: border-box;
+ 	width: 33%;
+}
+
+li {
+	list-style: none;
+	background-color: rgba(118,117,128,0.05);
+	text-align: left;
+	margin: 5px 45px 5px 0;
+	border-radius: 5px;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	line-height: 25px;
+	margin: 15px auto 15px 15px;
+}
+.top {
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #fff;
+	margin: 0px 0px 15px 0;
+}
+.search {
+	background: #fff;
+	border-radius: 5px;
+	margin: 80px 10px 0;
+	text-align: center;
+}
+
+.search button {
+	cursor: pointer;
+	width: 75px;
+	height: 75px;
+	background: url('../img/magnifier.svg') no-repeat;
+	background-size: cover;
+	border: none;
+	margin-left: 10px;
+}
+
+.search input {
+	border: none;
+	outline: none;
+	line-height: 100px;
+	font-size: 95px;
+	font-weight: 900; 
+	max-width: 960px;
+}
+a:hover {
+	color: #ec5a62;
+}
+li:hover {
+	background-color: rgba(118,117,128,0.1);
+}
+li.top:hover{
+	background-color: #fff;
+}
+input::placeholder {
+	color: #c2c2c2;
+}
+li.People img {
+	border-radius: 50%;
+}
+
+img {
+	vertical-align: middle;
+}
