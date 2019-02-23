@@ -42,6 +42,7 @@ div {
  	/*border: 1px solid black;*/
  	box-sizing: border-box;
  	width: 33%;
+ 	vertical-align: top;
 }
 
 li {
@@ -57,12 +58,14 @@ a {
 	text-decoration: none;
 	line-height: 25px;
 	margin: 15px auto 15px 15px;
+	
 }
 .top {
 	text-transform: uppercase;
 	font-weight: 700;
 	background-color: #fff;
 	margin: 0px 0px 15px 0;
+	
 }
 .search {
 	background: #fff;
@@ -88,6 +91,7 @@ a {
 	font-size: 95px;
 	font-weight: 900; 
 	max-width: 960px;
+	color: #ec5a62;
 }
 a:hover {
 	color: #ec5a62;
@@ -107,4 +111,10 @@ li.People img {
 
 img {
 	vertical-align: middle;
+	float:left;
+margin-right:10px;
+}
+/*p{
+	display: inline;
+	overflow: hidden;
 }
